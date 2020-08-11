@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": "/admin/",
+    "paths": {
+      "~/*": ["./*"],
+      "@/*": ["./*"],
+      "~~/*": ["./*"],
+      "@@/*": ["./*"]
+    }
+  },
+  "exclude": ["node_modules", ".nuxt", "dist"]
+}
